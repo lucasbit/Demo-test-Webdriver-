@@ -32,8 +32,5 @@ To run tests you need to:
 - Chrome to be installed on your machine.
 - download this repository
 - navigate to it in command line
-<<<<<<< HEAD
 - start testing with: npm test or if you like to run specific test type: npm test -- test/test_2
-=======
 - start testing with: npm test
->>>>>>> d5b6f05fd875f5d90c3ad538b5fd0089a418f3e9
