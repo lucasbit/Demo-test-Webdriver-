@@ -3,4 +3,5 @@ export const config = {
     "explicitWaitMS": 5000,
     "mochaTimeoutMS": 30000,
     "mochaSlowMS": 20000,
+    "mochaApiTimeoutMS":5000
 }
