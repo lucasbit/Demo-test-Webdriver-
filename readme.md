@@ -5,7 +5,7 @@ https://linka-weather-application.herokuapp.com/
 
 I have created this simple weather app, just for learning reasons and to get familiar with Node.js and Express.js
 
-How does it work? Users should to type in address and get the weather forecast in return. If the address is not valid they will get an error message in return.
+How does it work? Users should to type in address, and get the weather forecast in return. If the address is not valid they will get an error message in return.
 
 How does it work on back-end? The user address is sent to mapbox.com and there its geocoded, after that it is sent to darksky.net where geocode is translated to actual forecast. 
 
@@ -32,4 +32,8 @@ To run tests you need to:
 - Chrome to be installed on your machine.
 - download this repository
 - navigate to it in command line
+<<<<<<< HEAD
 - start testing with: npm test or if you like to run specific test type: npm test -- test/test_2
+=======
+- start testing with: npm test
+>>>>>>> d5b6f05fd875f5d90c3ad538b5fd0089a418f3e9
