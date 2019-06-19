@@ -3,8 +3,6 @@ import {expect} from 'chai';
 import {testData} from '../utils/test-data';
 import {config} from '../config/config';
 
-import {assert as assert} from 'chai';
-
 describe('Testing mapbox API', function() {
     // this time setting can be found i config file
     this.timeout(config.mochaApiTimeoutMS);

@@ -30,7 +30,9 @@ describe('Testing Weather App UI', function() {
         for (let i = 0; i < testData.validLocations.length; i++) {
             // creating variable that contains text from message element
             const succesMsgText = await  InputPage.WriteToInput(driver,testData.validLocations[i],testData.validLocations[i])
-            // checking if succes message contains name of valid location that was searched. 
+            // checking if succes message contains name of valid location that was searched.
+            await  assert.equal(true,succesMsgText.includes(testData.validLocations[i].toLowerCase()),'Search phrase is not equal to message phrase')
+ 
             
         }
     });
